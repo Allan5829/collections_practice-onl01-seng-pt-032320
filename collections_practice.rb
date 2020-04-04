@@ -69,7 +69,8 @@ end
   
 def add_s (array)
   new_array = []
-  array
+  array.collect do |words|
+    
   end
   return new_array
 end
