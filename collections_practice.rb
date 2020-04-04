@@ -34,7 +34,7 @@ def swap_elements (array)
   return array
 end
 
-def reverse_array
+def reverse_array (array)
   temp1 = array[0]
   temp2 = array[2]
   array[0] = temp2
