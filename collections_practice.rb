@@ -71,9 +71,11 @@ def add_a (array)
   new_array = []
   temp_variable = true
   array.each do |words|
-    temp_variable = words.start_with? "s"
+    temp_variable = words.end_with? "s"
     if ( temp_variable == true)
     elsif (temp_variable == false)
+      
+      new_array << words
     elsif (words == "feet")
       new_array << words
     end
