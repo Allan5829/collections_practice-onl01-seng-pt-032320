@@ -49,7 +49,7 @@ end
 def find_a (array)
   new_array = []
   array.each do |words|
-    if (words.start_with? "a" = true)
+    if (words.start_with? "a" == true)
       new_array << words
     end
   end
