@@ -74,6 +74,7 @@ def add_s (array)
       new_array << words
     else
       words + "s"
+      new_array << words
     end
   end
   return new_array
