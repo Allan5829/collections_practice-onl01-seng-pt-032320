@@ -48,7 +48,8 @@ end
 
 def find_a (array)
   new_array = []
-  
+  array.each do |words|
+  end
 end
   
 def sum_array (array)
