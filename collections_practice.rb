@@ -67,18 +67,9 @@ def sum_array (array)
   return sum
 end
   
-def add_a (array)
+def add_s (array)
   new_array = []
-  temp_variable = true
-  array.each do |words|
-    temp_variable = words.end_with? "s"
-    if ( temp_variable == true)
-    elsif (temp_variable == false)
-      
-      new_array << words
-    elsif (words == "feet")
-      new_array << words
-    end
+  array
   end
   return new_array
 end
