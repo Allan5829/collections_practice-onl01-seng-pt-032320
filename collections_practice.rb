@@ -69,7 +69,7 @@ end
   
 def add_s (array)
   new_array = []
-  array.collect do |words|
+  array.each do |words|
     if (words == "feet")
       new_array << words
     end
