@@ -47,12 +47,14 @@ def kesha_maker (array)
 end
 
 def find_a (array)
+  
 end
   
-def 
+def sum_array (array)
 end
   
-  
+def add_a (array)
+end
   
   
   
