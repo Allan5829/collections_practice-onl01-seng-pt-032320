@@ -72,10 +72,9 @@ def add_s (array)
   array.collect do |words|
     if (words == "feet")
       new_array << words
-    else
-      words + "s"
-      new_array << words
     end
+    words + "s"
+    new_array << words
   end
   return new_array
 end
