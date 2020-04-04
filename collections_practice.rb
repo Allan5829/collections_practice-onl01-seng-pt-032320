@@ -50,9 +50,10 @@ def find_a (array)
   new_array = []
   temp_variable = true
   array.each do |words|
-    temp_variable = 
-    if (words.start_with? "a" == true)
+    temp_variable = words.start_with? "a"
+    if ( temp_variable == true)
       new_array << words
+    elsif (temp_variable == false)
     end
   end
   return new_array
