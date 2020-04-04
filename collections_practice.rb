@@ -70,8 +70,7 @@ end
 def add_s (array)
   new_array = []
   array.each do |words|
-    words + "s"
-    new_array << words
+    new_array << words + "s"
   end
   return new_array
 end
