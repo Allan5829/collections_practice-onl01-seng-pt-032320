@@ -74,6 +74,8 @@ def add_a (array)
     temp_variable = words.start_with? "s"
     if ( temp_variable == true)
     elsif (temp_variable == false)
+    elsif (words == "feet")
+      new_array << words
     end
   end
   return new_array
