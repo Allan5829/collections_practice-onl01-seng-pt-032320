@@ -60,6 +60,11 @@ def find_a (array)
 end
   
 def sum_array (array)
+  sum = 0 
+  array.each do |number|
+    sum = sum + number
+  end
+  return sum
 end
   
 def add_a (array)
