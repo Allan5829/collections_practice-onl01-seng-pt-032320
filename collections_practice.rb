@@ -42,4 +42,6 @@ def reverse_array (array)
   return array
 end
 
-def 
+def kesha_maker (array)
+  
+end
