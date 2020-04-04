@@ -70,6 +70,9 @@ end
 def add_s (array)
   new_array = []
   array.each do |words|
+    if (words = "feet")
+      new_array << words
+    end
     new_array << words + "s"
   end
   return new_array
