@@ -70,20 +70,3 @@ end
 def add_a (array)
 end
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
